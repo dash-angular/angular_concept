@@ -1,0 +1,11 @@
+// In the component class
+export class MyComponent {
+  name = "John";
+
+  handleInput(event: any) {
+    this.name = event.target.value;
+  }
+}
+
+// In the template
+<input [(ngModel)]="name" (input)="handleInput($event)">

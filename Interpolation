@@ -1,0 +1,7 @@
+// In the component class
+export class MyComponent {
+  message = "Hello, world!";
+}
+
+// In the template
+<p>{{ message }}</p>

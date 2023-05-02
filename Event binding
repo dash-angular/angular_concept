@@ -1,0 +1,9 @@
+// In the component class
+export class MyComponent {
+  handleClick() {
+    alert("Button clicked!");
+  }
+}
+
+// In the template
+<button (click)="handleClick()">Click me</button>

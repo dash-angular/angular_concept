@@ -1,0 +1,8 @@
+// In the component class
+export class MyComponent {
+  imageUrl = "https://example.com/image.jpg";
+}
+
+// In the template
+<img [src]="imageUrl">
+

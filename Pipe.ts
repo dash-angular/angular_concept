@@ -8,3 +8,6 @@ export class UppercasePipe implements PipeTransform {
     return value.toUpperCase();
   }
 }
+
+/* HTML */<p>{{ 'Hello, world!' | uppercase }}</p>
+
